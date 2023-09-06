@@ -1,6 +1,9 @@
 class Duck:
     species = ""
 
+    def __init__(self):
+        pass
+
     def get_species(self):
         return self.species
 
